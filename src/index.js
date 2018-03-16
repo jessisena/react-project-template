@@ -1,19 +1,12 @@
 // @flow
-"use strict";
 
-const version: string = require("../package.json").version;
-const LatLon = require("./geo/latlon");
-const LatLonBounds = require("./geo/latlonBounds");
+import "semantic-ui-react";
 
-module.exports = {
-	version,
-	LatLon,
-	LatLonBounds
-};
+import ReactDOM from "react-dom";
+import React from "react";
+import App from "./containers/App";
 
-/**
- * The version of the project in use as specified in `package.json`,
- * `CHANGELOG.md`, and the GitHub release.
- *
- * @var {string} version
- */
+ReactDOM.render(
+  <App />,
+  document.getElementById("root")
+);

@@ -1,11 +1,12 @@
 {
   "extends": [
     "mourner",
-    "plugin:flowtype/recommended"
+    "plugin:flowtype/recommended",
+    "plugin:react/recommended"
   ],
   "parser": "babel-eslint",
   "parserOptions": {
-    "sourceType": "script"
+    "sourceType": "module"
   },
   "plugins": [
     "flowtype"
@@ -55,7 +56,8 @@
     }]
   },
   "globals": {
-    "performance": true
+    "performance": true,
+    "document": true
   },
   "env": {
     "es6": true,

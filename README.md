@@ -1,7 +1,10 @@
-# Javascript Project Template
+# React Web Project Template
 
-Base javascript project with a default configuration
+Base react web project with a default configuration
 
+* Uses [React](https://reactjs.org/)
+* Uses [React Router](https://github.com/ReactTraining/react-router), a declarative routing for React
+* Uses [Semantic-UI-React](react.semantic-ui.com) as a front-end framework
 * Uses [unassert](https://github.com/unassert-js/unassert) to encourage programming with assertions
 * Generates a single file package using [browserify](http://browserify.org/)
 * Uses [st](https://github.com/isaacs/st) to provide a server to serve static files for quick debugging of the package
